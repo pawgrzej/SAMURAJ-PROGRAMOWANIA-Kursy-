@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+.onBoard {
+    position: absolute;
+    box-sizing: border-box;
+    top : calc(50% - 15vw);
+    left: calc(50% - 15vw);
+    height: 30vw;
+    width: 30vw;
+    border: 10px black solid;
+    font-size: 0;
+}
+span {
+    display: inline-block;
+    background-color: grey;
+    width: 50%;
+    height: 50%;
+
+}
+
+span:first-child {
+    background-color: red;
+}
+span:last-child {
+    background-color: red;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+    position: absolute;
+    bottom: 5%;
+    color: brown;
+    width: 100%;
+}
