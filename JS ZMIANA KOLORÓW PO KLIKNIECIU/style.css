@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+.s1
+{
+    flex-basis: 50%;
+    height: 100vh;
+    transition: 5s;
+
+}
+
+.s2 {
+    flex-basis: 50%;
+    height: 100vh;
+    transition: 5s;
+
+}
+
+.red {
+    background-color: red;
+}
